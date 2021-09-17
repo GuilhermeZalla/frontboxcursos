@@ -1,0 +1,514 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* 0. Variáveis
+/* 1. Container
+/* 2. Menu
+/* 3. Header
+/* 4. Quem somos
+/* 5. Nossos cursos
+/* 6. Planos
+/* 7. Vantagens
+/* 8. Newsletter
+/* 9. Footer
+/**********************************/
+
+
+/**********************************/
+
+
+/* 0. Variáveis
+/**********************************/
+
+:root {
+    --clr-green-light: #0BF96A;
+    --clr-green-medium: #049A40;
+    --clr-black: #000000;
+    --clr-pink-light: #E10BF9;
+    --clr-pink-lighter: #F3A0FD;
+    --clr-background: #F5F5F5;
+    --font-primay: 'Nunito', sans-serif;
+    --line-height: 1.3em;
+}
+
+
+/**********************************/
+
+
+/* 1. Estilos gerais
+/**********************************/
+
+body {
+    background-color: var(--clr-background);
+    font-family: var(--font-primay);
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-black);
+}
+
+
+/**********************************/
+
+
+/* 2. Header
+/**********************************/
+
+header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--clr-green-light);
+    color: var(--clr-black);
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: .4rem;
+}
+
+.header-list {
+    display: flex;
+    font-size: .97rem;
+}
+
+.header-list_link {
+    padding-right: 1.2rem;
+}
+
+@media screen and (max-width: 800px) {
+    .header-list {
+        visibility: hidden;
+    }
+    .header-list_link {
+        padding-right: 0;
+    }
+    .header-logo {
+        padding-left: .8rem;
+    }
+}
+
+
+/**********************************/
+
+
+/* 4. Quem somos
+/**********************************/
+
+.section-main_header {
+    margin-bottom: 2.5rem;
+}
+
+.section-main_header--title {
+    margin: 1.4rem;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    border-color: var(--clr-pink-light);
+    width: 150px;
+}
+
+.section-sobre_body--title {
+    margin: 1.4rem 0 0 0;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.section-sobre_body--info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    margin-top: 8.2rem;
+    margin-left: 12px;
+    line-height: var(--line-height);
+    width: 560px;
+    height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .info-text {
+        margin-top: 1.0rem;
+    }
+}
+
+
+/**********************************/
+
+
+/* 5. Nossos cursos
+/**********************************/
+
+.section-nossoscursos_body--title {
+    margin: 1.4rem 0 0 0;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.section-nossoscursos_info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    width: 300px;
+    margin-right: 1.2rem;
+}
+
+.info-box>h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-box>p {
+    line-height: var(--line-height);
+}
+
+@media screen and (max-width: 800px) {
+    .info-box {
+        margin: .8rem 0 0 2.8rem;
+    }
+}
+
+
+/**********************************/
+
+
+/* 6. Planos
+/**********************************/
+
+.planos {
+    background-color: var(--clr-pink-lighter);
+}
+
+.section-planos_body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.section-planos_title {
+    margin: 0 0 1.2rem 0;
+    padding-top: 1.2rem;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .section-planos_title {
+        margin-bottom: 0px;
+    }
+}
+
+.planos-body_1,
+.planos-body_2,
+.planos-body_3 {
+    border: 2px solid var(--clr-green-light);
+    text-align: center;
+    margin-right: 16px;
+}
+
+.planos-body_1 {
+    margin-top: 60px;
+    height: 300px;
+    width: 300px;
+}
+
+.planos-body_2 {
+    margin-top: 30px;
+    height: 330px;
+    width: 300px;
+}
+
+.planos-body_3 {
+    background-color: var(--clr-green-light);
+    border: 2px solid var(--clr-pink-light);
+    height: 360px;
+    width: 300px;
+}
+
+.type-title {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.plano_preco {
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.plano_preco sup {
+    position: relative;
+    font-size: 1.5rem;
+    top: -20px;
+}
+
+.planos_divisor {
+    width: 18px;
+    border-color: var(--clr-green-light);
+}
+
+.planos_list li {
+    list-style: none;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.planos_list li::before {
+    content: '▪';
+    margin: 0 2px;
+    color: var(--clr-green-light);
+}
+
+.pink li::before {
+    content: '▪';
+    margin: 0 2px;
+    color: var(--clr-pink-light);
+}
+
+.comprar-button {
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid var(--clr-green-light);
+    width: 200px;
+}
+
+.planos-body_3 .comprar-button {
+    border: 2px solid var(--clr-pink-light);
+}
+
+.planos-body_3 .planos_divisor {
+    border-color: var(--clr-pink-light);
+}
+
+@media screen and (max-width: 800px) {
+    .planos-body_3 {
+        margin-top: 35px;
+    }
+    .section-planos_body {
+        margin-left: 20px;
+    }
+}
+
+
+/**********************************/
+
+
+/* 7. Vantagens
+/**********************************/
+
+.vantagens-info_top--boxes,
+.vantagens-info_bottom--boxes {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .vantagens-info_top--boxes,
+    .vantagens-info_bottom--boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.box {
+    width: 220px;
+    height: 180px;
+}
+
+.box-title {
+    font-size: 27px;
+    line-height: var(--line-height);
+}
+
+.box-content {
+    line-height: 1.5em;
+}
+
+.vantagens-info_box1>.box-title::before {
+    content: "\275A";
+    color: var(--clr-green-light);
+}
+
+.vantagens-info_box2>.box-title::before {
+    content: "\275A";
+    color: var(--clr-pink-light);
+}
+
+.vantagens-info_box3>.box-title::before {
+    content: "\275A";
+    color: var(--clr-green-medium);
+}
+
+.vantagens-info_box4>.box-title::before {
+    content: "\275A";
+    color: var(--clr-green-light);
+}
+
+.vantagens-info_box5>.box-title::before {
+    content: "\275A";
+    color: var(--clr-pink-light);
+}
+
+.vantagens-info_box6>.box-title::before {
+    content: "\275A";
+    color: var(--clr-green-medium);
+}
+
+@media screen and (max-width: 800px) {
+    .vantagens-info_box1 {
+        margin-right: 15px;
+    }
+    .vantagens-info_box4 {
+        margin-right: 15px;
+    }
+    .vantagens-info_box6 {
+        margin-top: 35px;
+    }
+}
+
+
+/**********************************/
+
+
+/* 8. Newsletter
+/**********************************/
+
+.newsletter {
+    background-color: var(--clr-green-light);
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    padding: 50px;
+    margin-right: 80px;
+}
+
+.newsletter-title {
+    font-size: 41px;
+    font-weight: bold;
+    letter-spacing: 0.1cm;
+}
+
+.newsletter-text,
+.placeholder-body {
+    font-size: 16;
+    font-style: italic;
+}
+
+.newsletter-text {
+    padding-left: 15px;
+    text-align: left;
+}
+
+.newsletter-form {
+    background-color: var(--clr-pink-light);
+    width: 550px;
+    height: 80px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .newsletter {
+        height: 360px;
+    }
+    .newsletter-form {
+        margin: 10px;
+    }
+}
+
+.newsletter-form_content {
+    flex: 2 1 260px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.newsletter-form_input {
+    flex: 3 1 260px;
+    font-size: 1.25em;
+    width: 325px;
+    color: black;
+    font-style: italic;
+    border: 10px solid var(--clr-pink-light);
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.newsletter-form_submit {
+    background-color: var(--clr-pink-light);
+    flex: 1 1 260px;
+    width: 192px;
+    font-family: var(--font-primay);
+    font-size: 2.25em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .newsletter-title,
+    .newsletter-text {
+        margin-left: 80px;
+    }
+}
+
+
+/**********************************/
+
+
+/* 9. Footer
+/**********************************/
+
+.footer {
+    background-color: var(--clr-pink-lighter);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-content_text,
+.footer-logo {
+    margin: 50px 0px 50px 0px;
+}
