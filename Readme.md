@@ -9,4 +9,4 @@ Nesse projeto, foi desenvolvido um site responsivo utilizando Flexbox.
 * O projeto foi desenvolvido utilizando a metodologia Block Element Modifier (BEM).
 * O projeto me ajudou a entender de uma maneira mais clara como funciona o Flexbox.
 
-link para o projeto: frontboxcursos.github.io
+link para o projeto: frontboxcursos.netlify.app
