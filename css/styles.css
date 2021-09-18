@@ -204,6 +204,17 @@ hr {
     }
 }
 
+@media screen and (max-width: 720px) {
+    .planos {
+        height: 1280px;
+    }
+    .planos-body_1,
+    .planos-body_2,
+    .planos-body_3 {
+        padding-bottom: 50px;
+    }
+}
+
 .section-planos_body {
     display: flex;
     justify-content: center;
