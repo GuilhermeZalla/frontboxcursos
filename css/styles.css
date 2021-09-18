@@ -198,6 +198,12 @@ hr {
     background-color: var(--clr-pink-lighter);
 }
 
+@media screen and (max-width: 800px) {
+    .planos {
+        height: 1280px;
+    }
+}
+
 .section-planos_body {
     display: flex;
     justify-content: center;
