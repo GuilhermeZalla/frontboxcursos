@@ -307,16 +307,34 @@ hr {
     border-color: var(--clr-pink-light);
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .section-planos_body {
         margin-left: 20px;
     }
     .section-planos_title {
         margin-bottom: 0;
     }
-    .planos-body_3 {
-        margin-top: 30px;
+    
+    .planos-body_1 {
+    margin-top: 60px;
+    height: 24rem;
+    width: 19rem;
     }
+
+    .planos-body_2 {
+    margin-top: 30px;
+    height: 26rem;
+    width: 19rem;
+   }
+
+   .planos-body_3 {
+    background-color: var(--clr-green-light);
+    border: 2px solid var(--clr-pink-light);
+    height: 28rem;
+    width: 19rem;
+    margin-top: 30px;
+
+   }
 }
 
 /**********************************/
