@@ -228,20 +228,20 @@ hr {
 
 .planos-body_1 {
     margin-top: 60px;
-    height: 23rem;
+    height: 20rem;
     width: 19rem;
 }
 
 .planos-body_2 {
     margin-top: 30px;
-    height: 25rem;
+    height: 22rem;
     width: 19rem;
 }
 
 .planos-body_3 {
     background-color: var(--clr-green-light);
     border: 2px solid var(--clr-pink-light);
-    height: 27rem;
+    height: 24rem;
     width: 19rem;
 }
 
@@ -274,7 +274,7 @@ hr {
     font-style: italic;
     display: flex;
     align-items: center;
-    margin: 10px 50px;
+    margin: 10px 35px;
 }
 
 .planos_list li::before {
