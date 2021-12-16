@@ -308,7 +308,7 @@ hr {
     border-color: var(--clr-pink-light);
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 768px) {
     .section-planos_body {
         margin-left: 20px;
     }
