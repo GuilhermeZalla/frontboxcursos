@@ -308,18 +308,6 @@ hr {
     border-color: var(--clr-pink-light);
 }
 
-@media screen and (max-width: 768px) {
-    .section-planos_body {
-        margin-left: 20px;
-    }
-    .section-planos_title {
-        margin-bottom: 0;
-    }
-    .planos-body_3 {
-        margin-top: 35px;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .section-planos_body {
         margin-left: 20px;
