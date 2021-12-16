@@ -275,6 +275,7 @@ hr {
     display: flex;
     align-items: center;
     line-height: .8cm;
+    font-size: 1rem;
 }
 
 .planos_list li::before {
@@ -316,9 +317,9 @@ hr {
     }
     
     .planos-body_1 {
-    margin-top: 60px;
-    height: 26rem;
-    width: 19rem;
+       margin-top: 60px;
+       height: 26rem;
+       width: 19rem;
     }
 
     .planos-body_2 {
