@@ -223,25 +223,25 @@ hr {
     border: 2px solid var(--clr-green-light);
     text-align: center;
     margin: auto 16px;
-    padding: 16px;
+    padding: 30px 50px;
 }
 
 .planos-body_1 {
     margin-top: 60px;
-    height: 20rem;
+    height: 23rem;
     width: 19rem;
 }
 
 .planos-body_2 {
     margin-top: 30px;
-    height: 22rem;
+    height: 25rem;
     width: 19rem;
 }
 
 .planos-body_3 {
     background-color: var(--clr-green-light);
     border: 2px solid var(--clr-pink-light);
-    height: 24rem;
+    height: 27rem;
     width: 19rem;
 }
 
@@ -274,7 +274,7 @@ hr {
     font-style: italic;
     display: flex;
     align-items: center;
-    margin: 10px 35px;
+    line-height: .8cm;
 }
 
 .planos_list li::before {
@@ -290,7 +290,7 @@ hr {
 }
 
 .comprar-button {
-    margin: auto;
+    margin: 16px auto;
     text-align: center;
     font-size: 32px;
     font-weight: bold;
