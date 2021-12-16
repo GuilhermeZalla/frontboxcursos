@@ -246,21 +246,21 @@ hr {
 
 .planos-body_1 {
     margin-top: 60px;
-    height: 300px;
-    width: 300px;
+    height: 18.7rem;
+    width: 19rem;
 }
 
 .planos-body_2 {
     margin-top: 30px;
-    height: 330px;
-    width: 300px;
+    height: 20.6rem;
+    width: 19rem;
 }
 
 .planos-body_3 {
     background-color: var(--clr-green-light);
     border: 2px solid var(--clr-pink-light);
-    height: 360px;
-    width: 300px;
+    height: 22.5rem;
+    width: 19rem;
 }
 
 .type-title {
