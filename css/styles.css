@@ -317,24 +317,20 @@ hr {
     }
     
     .planos-body_1 {
-       margin-top: 60px;
        height: 26rem;
-       width: 19rem;
     }
 
     .planos-body_2 {
-    margin-top: 30px;
     height: 28rem;
-    width: 19rem;
    }
 
    .planos-body_3 {
-    background-color: var(--clr-green-light);
-    border: 2px solid var(--clr-pink-light);
     height: 30rem;
-    width: 19rem;
-    margin-top: 30px;
 
+   }
+    
+    .planos_list li {
+      font-size: .85rem;
    }
     
 }
