@@ -337,14 +337,6 @@ hr {
 
    }
     
-   .planos-body_1,
-   .planos-body_2,
-   .planos-body_3 {
-      border: 2px solid var(--clr-green-light);
-      text-align: center;
-      margin: auto 16px;
-      padding: 30px 70px;
-  }
 }
 
 /**********************************/
