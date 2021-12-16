@@ -326,14 +326,19 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+    .planos {
+        max-height: 1280px;
+    }
     .planos-body_3 {
         margin-top: 35px;
     }
     .section-planos_body {
         margin-left: 20px;
     }
+    .section-planos_title {
+        margin-bottom: 0;
+    }
 }
-
 
 /**********************************/
 
